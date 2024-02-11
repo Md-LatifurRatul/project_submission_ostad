@@ -1,3 +1,4 @@
+import 'package:assignment_submission/photo_gallery_screen.dart';
 import 'package:flutter/material.dart';
 
 class PhotoGallery extends StatelessWidget {
@@ -16,7 +17,7 @@ class PhotoGallery extends StatelessWidget {
 
         ),
       ),
-      home: const Text("Hello"),
+      home: const PhotoGalleryScreen(),
 
     );
   }
