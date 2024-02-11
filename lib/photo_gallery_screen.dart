@@ -44,7 +44,7 @@ class _PhotoGalleryScreenState extends State<PhotoGalleryScreen> {
               itemCount: snapshot.data!.length,
               itemBuilder: (context, index) {
                 return Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.only(top: 2),
                   child: ListTile(
                     title: Text(snapshot.data![index].title),
                     leading: Image.network(
