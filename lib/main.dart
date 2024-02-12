@@ -1,7 +1,7 @@
+import 'package:assignment_submission/app.dart';
 import 'package:flutter/material.dart';
-import 'photo_gallery.dart';
 
 
 void main(){
-  runApp(const PhotoGallery());
+  runApp(const WeatherInfoApp());
 }
